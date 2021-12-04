@@ -1,0 +1,110 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/*--navbar--*/
+.nab-logo{
+    text-align: left;
+}
+.nav-head{
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a {
+    padding: 5px 10px;
+    margin: 20px 0px;
+    background-color: transparent;
+}
+/*--navbar--*/
+
+
+/*--profile--*/
+.profile .top-icon{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 100px;
+    top: 40px;
+    transition: transform 3s;
+}
+.profile .top-icon:hover{
+    transform: rotate(360deg);
+}
+.pro-desc p{
+    color: rgb(174, 30, 126);
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.profile .bottom-icon{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 140px;
+    bottom: 60px;
+    transition: transform 2s;
+}
+.profile .bottom-icon:hover{
+    transform: scale(2);
+}
+.profile::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*--profile--*/
+
+
+/*--about-me--*/
+.about-img img{
+    height: 440px;
+    width: 340px;
+    margin: 40px 0%;
+    border: 5px solid white;
+}
+.about-desc p{
+    text-align: left;
+}
+/*--about-me--*/ 
+
+/*professional-experience*/
+.skills-container li::after{animation-timing-function: linear;}
+/*professional-experience*/
+
+
+/* contact for design */
+.a-contact{
+    padding-right: 50px;
+}
+
+
+/* contact for design */
+
+/*footer*/
+.foot-menu{
+    margin-top: 12px;
+
+}
+.foot-menu a{
+    display: inline;
+    margin: 10px;
+}
+
+
+
+/*footer*/
